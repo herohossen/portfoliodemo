@@ -4,6 +4,8 @@ import myImg from '../../Assets/hero.png';
 import SocialMedia from '../SocialMedia';
 import TypeWriter from './TypeWriter';
 
+import Projects from "../Projects/Projects";
+
 function Home() {
   return (
     <section>
@@ -12,7 +14,7 @@ function Home() {
           <Row>
             <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{' '}
+                Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -39,6 +41,7 @@ function Home() {
               <img src={myImg} className="profile-pic" alt="avatar" />
             </Col>
           </Row>
+            <Projects></Projects>
         </Container>
       </Container>
       <Container fluid className="home-about-section" id="about">
@@ -47,7 +50,7 @@ function Home() {
             <Col md={12} className="home-about-social">
               <h1>Get in Touch</h1>
               <p>
-                {' '}
+                {" "}
                 Whether you want to get in touch, or talk about a project
                 collaboration.
                 <br />
