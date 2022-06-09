@@ -8,6 +8,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMail,
 } from 'react-icons/ai';
 
 import { MdDeveloperMode } from 'react-icons/md';
@@ -97,7 +98,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: '2px' }} /> Contact
+                <AiOutlineMail style={{ marginBottom: '2px' }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
